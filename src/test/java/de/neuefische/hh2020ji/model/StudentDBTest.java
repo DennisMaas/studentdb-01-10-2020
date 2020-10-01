@@ -13,7 +13,7 @@ class StudentDBTest {
         StudentDB studentDB = new StudentDB(
                 List.of(
                     new Student("Jane Doe", 1),
-                    new Student("John Doe", 2)
+                    new Student("John Doe", 42)
         ));
 
         List<Student> actual = studentDB.list();
